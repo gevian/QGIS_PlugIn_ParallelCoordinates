@@ -26,9 +26,9 @@ changelog=Adapted to QGIS version 2.0; Added progress bar.
 # tags are comma separated with spaces allowed
 tags=
 
-homepage=
-tracker=
-repository=
+homepage=https://github.com/gevian/QGIS_PlugIn_ParallelCoordinates
+tracker=https://github.com/gevian/QGIS_PlugIn_ParallelCoordinates/issues
+repository=https://github.com/gevian/QGIS_PlugIn_ParallelCoordinates
 icon=icon.png
 # experimental flag
 experimental=True
