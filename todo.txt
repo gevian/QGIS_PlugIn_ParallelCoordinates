@@ -1,0 +1,5 @@
+todos:
+ - add support for raster layers
+ - optimize data structure
+ - allow scaling of axes
+ - add dialogs for changing colors

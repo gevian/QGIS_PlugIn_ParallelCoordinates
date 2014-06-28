@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/parallelcoordinates" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

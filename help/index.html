@@ -1,0 +1,51 @@
+<html>
+    <head><title>Parallel Coordinates plugin for Quantum GIS help</title></head>
+    <style type="text/css">
+        body { font-family: verdana, arial, sans-serif;
+            font-size: 80%;
+                    background-color: #ffffff;  }
+        h1 { font-size: 120%; }
+        h2 { font-size: 100%; }
+        h3 { font-size: 90%; font-style: italic }
+        p.quote { margin: 0,3em,0,3em; font-style: italic;}
+        div.indent { margin-left: 3em; }
+    </style>
+    <body>
+    <h1>Parallel Coordinates for Quantum GIS plugin help</h1>
+    <p>This plugin allows to visually analyze tabular data using the <a href="http://en.wikipedia.org/wiki/Parallele_Koordinaten">parallel coordinates technique</a>.<br>
+    By default, the plugin will attach a new window to the bottom of the QGIS application but can be moved to other more convenient locations.<br>
+    <b>Since this plugin is still under development data loss or other problems may occur</b>. Please, keep this in mind.
+    </p>
+  
+    <img src="ParallelCoordinates.png" alt="Parallel Coordinates Window" width="75%"/>
+       
+      <h2>Current layer</h2> 
+       <p>This combo box at the very lower left of the window allows the selection of one vector layer listed in the table of contents.</p>
+
+      <h2>Select attributes</h2> 
+       <p>When clicking on the "Select attributes" button, the user can select the attributes of the chosen vector layer by checking the corresponding box on the very right.</p>
+	<img src="AttributeSelection.png" alt="Select Attributes Window" width="25%"/>
+      
+      <h2>Hide features not in extent</h2> 
+      <p>When checked the parallel coordinates plot will only display the lines of the features being currently visible in the map canvas.<br>
+      When unchecked all features of the current layer are being displayed.</p>
+      
+      <h2>Help</h2> 
+      <p>Displays this help page.</p>
+
+      <h2>Changing the axis order</h2> 
+      <p>
+      Changing the position of an axis can be achieved by dragging it to another position.<br>
+      If this position is another axis, both axes will switch their positions.<br>
+      If this position lies exactly between two axes, the dragged axis will be moved to the position between these two axes.
+      <img src="ChangeAxisPosition.png" alt="Change Axis Order" width="75%"/>
+      </p>
+  
+      <h2>Selecting features of interest</h2> 
+      <p>Features of interest can be selected by dragging a rectangle around a part of an axis. The selection then is highlighted in red color.<br>
+      Changing the selection using the map canvas or the attribute table also changes the selection of the parallel coordinates plot.</p>
+
+      <p>Author: Magnus Heitzler</p>
+      <p>Icon: Sarah Heitzler</p>
+    </body>
+</html>
